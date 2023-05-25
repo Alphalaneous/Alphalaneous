@@ -27,7 +27,7 @@
 
         .container {
 		
-		  background: linear-gradient(-45deg, #5452ee); 
+		  background: linear-gradient(-45deg, #5452ee, #23a6d5, #ffff); 
 		
           <!-- --color-main: #5452ee;
           --color-primary: #e73c7e;
