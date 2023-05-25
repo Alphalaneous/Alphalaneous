@@ -26,7 +26,10 @@
         } -->
 
         .container {
-          --color-main: #5452ee;
+		
+		  background: linear-gradient(-45deg, var(--color-main); 
+		
+          <!-- --color-main: #5452ee;
           --color-primary: #e73c7e;
           --color-secondary: #23a6d5;
           --color-tertiary: #ffff;
@@ -69,7 +72,7 @@
           .hi {
             animation: none;
           }
-        }
+        }-->
       </style>
 
       <div class="container">
