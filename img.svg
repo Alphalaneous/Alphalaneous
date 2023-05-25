@@ -2,6 +2,7 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
+
         .container {
 		  --color-main: #fff;
 		  --panel-bg: #ffffff15;
@@ -24,8 +25,8 @@
 
 		.panel {
 			background-color: var(--panel-bg);
-			margin: 5px;
-			width: 46%;
+			margin: 1%;
+			width: 47%;
 			border: 1px solid white;
 			border-radius: 10px;
 			display: inline-block
@@ -33,11 +34,16 @@
 
 		}
 
-		.panelList {
-
+		.center {
 			display: block;
 		}
 
+		.panelList {
+			width: 100%;
+			display: inline-block;
+		}
+
+		
 		@media (prefers-color-scheme: light) {
 		  .container {
 			--color-main: #000;
@@ -53,18 +59,20 @@
         <h1>Welcome to my GitHub Page!</h1>
 		<p>I like to develop mods for Geometry Dash</p>
 		<p>Some notable software I have made are:</p>
-		<div class="panelList">
-			<div class="panel">
-				<p>Loquibot</p>
-			</div>
-			<div class="panel">
-				<p>DeathLink</p>
-			</div>
-			<div class="panel">
-				<p>Dash4j</p>
-			</div>
-			<div class="panel">
-				<p>EZMemory</p>
+		<div class="center">
+			<div class="panelList">
+				<a href="https://loquibot.com/" class="panel">
+					<p>Loquibot</p>
+				</a>
+				<div class="panel">
+					<p>DeathLink</p>
+				</div>
+				<div class="panel">
+					<p>Dash4j</p>
+				</div>
+				<div class="panel">
+					<p>EZMemory</p>
+				</div>
 			</div>
 		</div>
       </div>
