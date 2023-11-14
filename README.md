@@ -1,1 +1,1 @@
-Hi, too lazy to make this look good
+Hi, I'm Ashton and I code stuff!
